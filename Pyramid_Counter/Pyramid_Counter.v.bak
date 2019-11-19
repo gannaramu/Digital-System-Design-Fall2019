@@ -1,0 +1,30 @@
+module Pyramid_Counter(clock, clk2,clk4,p1,p2,p3,p4,p23,enable,clear);
+
+input clock,enable,clear;
+output reg clk2,clk4;
+output reg p1, p2, p3, p4, p23;
+
+always @(negedge clock)
+	begin
+		clk2=~clk2;
+	end
+	
+always @(posedge clk2)
+	begin
+		clk4=~clk4;
+	end	
+
+always @(enable,clear,clock,clk2)
+	begin
+		case({enable,clear,clock,clk2})
+			4'b1000: begin p1=0;p2=0;p3=1;p4=0;p23=1;  end
+			4'b1001: begin p1=1;p2=0;p3=0;p4=0;p23=0;  end
+			4'b1010: begin p1=0;p2=0;p3=0;p4=1;p23=0;  end
+			4'b1011: begin p1=0;p2=1;p3=0;p4=0;p23=1;  end
+			default: begin p1=0;p2=0;p3=0;p4=0;p23=0;  end
+		
+		endcase
+	end
+
+
+endmodule 

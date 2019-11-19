@@ -1,0 +1,23 @@
+module THREE_BIT_ALU(fun_select,A,B,HEX0,HEX2,HEX4);
+	input[1:0] fun_select; // Input for function selector
+	input[2:0] A,B; // 3-Bit Input for A and B
+	//output[3:0] F; // Output of 4 bit assuming carry.
+	reg[3:0] F;
+	reg[3:0] F';
+	output[13:0] HEX2,HEX4,HEX0;
+
+	display dispA(A,HEX0);
+	display dispB(B,HEX2);
+	display dispF(F,HEX4);
+
+
+	always @(*)
+	begin
+		case(fun_select)
+			2'b00:F=A+B; // Addition
+			2'b01:F'=A-B; // Subtraction
+			2'b10:F=A^B; // A XOR B
+			2'b11:F=A<<1;  // Left Shift on A
+		endcase
+		end
+endmodule

@@ -1,0 +1,306 @@
+$comment
+	File created using the following command:
+		vcd file Matrix_display.msim.vcd -direction
+$end
+$date
+	Wed Oct 23 14:46:19 2019
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Matrix_display_vlg_vec_tst $end
+$var reg 1 ! clock50MHz $end
+$var reg 2 " reset [1:0] $end
+$var reg 2 # run [1:0] $end
+$var wire 1 $ clock500KHZ $end
+$var wire 1 % column [7] $end
+$var wire 1 & column [6] $end
+$var wire 1 ' column [5] $end
+$var wire 1 ( column [4] $end
+$var wire 1 ) column [3] $end
+$var wire 1 * column [2] $end
+$var wire 1 + column [1] $end
+$var wire 1 , column [0] $end
+$var wire 1 - count1 [2] $end
+$var wire 1 . count1 [1] $end
+$var wire 1 / count1 [0] $end
+$var wire 1 0 row [7] $end
+$var wire 1 1 row [6] $end
+$var wire 1 2 row [5] $end
+$var wire 1 3 row [4] $end
+$var wire 1 4 row [3] $end
+$var wire 1 5 row [2] $end
+$var wire 1 6 row [1] $end
+$var wire 1 7 row [0] $end
+
+$scope module i1 $end
+$var wire 1 8 gnd $end
+$var wire 1 9 vcc $end
+$var wire 1 : unknown $end
+$var tri1 1 ; devclrn $end
+$var tri1 1 < devpor $end
+$var tri1 1 = devoe $end
+$var wire 1 > run[0]~input_o $end
+$var wire 1 ? run[1]~input_o $end
+$var wire 1 @ reset[0]~input_o $end
+$var wire 1 A reset[1]~input_o $end
+$var wire 1 B ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 C clock50MHz~input_o $end
+$var wire 1 D clock50MHz~inputCLKENA0_outclk $end
+$var wire 1 E count1[0]~2_combout $end
+$var wire 1 F count1[0]~reg0_q $end
+$var wire 1 G count1[0]~reg0DUPLICATE_q $end
+$var wire 1 H count1[1]~1_combout $end
+$var wire 1 I count1[1]~reg0_q $end
+$var wire 1 J count1[2]~0_combout $end
+$var wire 1 K count1[2]~reg0_q $end
+$var wire 1 L count1[1]~reg0DUPLICATE_q $end
+$var wire 1 M Decoder0~0_combout $end
+$var wire 1 N Decoder0~1_combout $end
+$var wire 1 O Decoder0~2_combout $end
+$var wire 1 P Decoder0~3_combout $end
+$var wire 1 Q Decoder0~4_combout $end
+$var wire 1 R Decoder0~5_combout $end
+$var wire 1 S Decoder0~6_combout $end
+$var wire 1 T Decoder0~7_combout $end
+$var wire 1 U c0|data_out[0]~0_combout $end
+$var wire 1 V Add0~53_sumout $end
+$var wire 1 W Add0~54 $end
+$var wire 1 X Add0~57_sumout $end
+$var wire 1 Y Add0~58 $end
+$var wire 1 Z Add0~61_sumout $end
+$var wire 1 [ Add0~62 $end
+$var wire 1 \ Add0~33_sumout $end
+$var wire 1 ] Add0~34 $end
+$var wire 1 ^ Add0~37_sumout $end
+$var wire 1 _ Add0~38 $end
+$var wire 1 ` Add0~41_sumout $end
+$var wire 1 a Add0~42 $end
+$var wire 1 b Add0~85_sumout $end
+$var wire 1 c Add0~86 $end
+$var wire 1 d Add0~89_sumout $end
+$var wire 1 e Add0~90 $end
+$var wire 1 f Add0~93_sumout $end
+$var wire 1 g Add0~94 $end
+$var wire 1 h Add0~97_sumout $end
+$var wire 1 i Add0~98 $end
+$var wire 1 j Add0~101_sumout $end
+$var wire 1 k Add0~102 $end
+$var wire 1 l Add0~45_sumout $end
+$var wire 1 m Add0~46 $end
+$var wire 1 n Add0~49_sumout $end
+$var wire 1 o Add0~50 $end
+$var wire 1 p Add0~13_sumout $end
+$var wire 1 q Add0~14 $end
+$var wire 1 r Add0~17_sumout $end
+$var wire 1 s Add0~18 $end
+$var wire 1 t Add0~65_sumout $end
+$var wire 1 u Add0~66 $end
+$var wire 1 v Add0~21_sumout $end
+$var wire 1 w Add0~22 $end
+$var wire 1 x Add0~69_sumout $end
+$var wire 1 y Add0~70 $end
+$var wire 1 z Add0~73_sumout $end
+$var wire 1 { Add0~74 $end
+$var wire 1 | Add0~77_sumout $end
+$var wire 1 } Add0~78 $end
+$var wire 1 ~ Add0~81_sumout $end
+$var wire 1 !! Add0~82 $end
+$var wire 1 "! Add0~25_sumout $end
+$var wire 1 #! Add0~26 $end
+$var wire 1 $! Add0~29_sumout $end
+$var wire 1 %! Add0~30 $end
+$var wire 1 &! Add0~1_sumout $end
+$var wire 1 '! Add0~2 $end
+$var wire 1 (! Add0~5_sumout $end
+$var wire 1 )! Equal0~3_combout $end
+$var wire 1 *! Equal0~4_combout $end
+$var wire 1 +! Equal0~7_combout $end
+$var wire 1 ,! Equal0~8_combout $end
+$var wire 1 -! Equal0~5_combout $end
+$var wire 1 .! Equal0~6_combout $end
+$var wire 1 /! Add0~6 $end
+$var wire 1 0! Add0~9_sumout $end
+$var wire 1 1! Equal0~0_combout $end
+$var wire 1 2! Equal0~1_combout $end
+$var wire 1 3! Equal0~2_combout $end
+$var wire 1 4! clock500KHZ~0_combout $end
+$var wire 1 5! clock500KHZ~reg0_q $end
+$var wire 1 6! count [25] $end
+$var wire 1 7! count [24] $end
+$var wire 1 8! count [23] $end
+$var wire 1 9! count [22] $end
+$var wire 1 :! count [21] $end
+$var wire 1 ;! count [20] $end
+$var wire 1 <! count [19] $end
+$var wire 1 =! count [18] $end
+$var wire 1 >! count [17] $end
+$var wire 1 ?! count [16] $end
+$var wire 1 @! count [15] $end
+$var wire 1 A! count [14] $end
+$var wire 1 B! count [13] $end
+$var wire 1 C! count [12] $end
+$var wire 1 D! count [11] $end
+$var wire 1 E! count [10] $end
+$var wire 1 F! count [9] $end
+$var wire 1 G! count [8] $end
+$var wire 1 H! count [7] $end
+$var wire 1 I! count [6] $end
+$var wire 1 J! count [5] $end
+$var wire 1 K! count [4] $end
+$var wire 1 L! count [3] $end
+$var wire 1 M! count [2] $end
+$var wire 1 N! count [1] $end
+$var wire 1 O! count [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x!
+bx "
+bx #
+0$
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+0/
+0.
+0-
+07
+16
+15
+14
+13
+12
+11
+10
+08
+19
+x:
+1;
+1<
+1=
+x>
+x?
+x@
+xA
+0B
+xC
+xD
+1E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+1M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+1U
+1V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
+0&!
+0'!
+0(!
+0)!
+0*!
+0+!
+1,!
+0-!
+0.!
+0/!
+00!
+01!
+02!
+03!
+04!
+05!
+0O!
+0N!
+0M!
+0L!
+0K!
+0J!
+0I!
+0H!
+0G!
+0F!
+0E!
+0D!
+0C!
+0B!
+0A!
+0@!
+0?!
+0>!
+0=!
+0<!
+0;!
+0:!
+09!
+08!
+07!
+06!
+$end
+#1000000

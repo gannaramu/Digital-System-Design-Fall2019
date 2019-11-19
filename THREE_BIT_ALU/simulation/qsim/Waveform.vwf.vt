@@ -1,0 +1,158 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "09/30/2019 16:51:00"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          THREE_BIT_ALU
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module THREE_BIT_ALU_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [2:0] A;
+reg [2:0] B;
+reg [1:0] fun_select;
+// wires                                               
+wire [3:0] F;
+wire [13:0] HEX0;
+wire [13:0] HEX2;
+wire [13:0] HEX4;
+
+// assign statements (if any)                          
+THREE_BIT_ALU i1 (
+// port map - connection between master ports and signals/registers   
+	.A(A),
+	.B(B),
+	.F(F),
+	.HEX0(HEX0),
+	.HEX2(HEX2),
+	.HEX4(HEX4),
+	.fun_select(fun_select)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// A[ 2 ]
+initial
+begin
+	A[2] = 1'b0;
+	# 120000;
+	repeat(2)
+	begin
+		A[2] = 1'b1;
+		A[2] = #160000 1'b0;
+		# 160000;
+	end
+	A[2] = 1'b1;
+	A[2] = #160000 1'b0;
+end 
+// A[ 1 ]
+initial
+begin
+	A[1] = 1'b0;
+	# 40000;
+	repeat(6)
+	begin
+		A[1] = 1'b1;
+		A[1] = #80000 1'b0;
+		# 80000;
+	end
+end 
+// A[ 0 ]
+initial
+begin
+	repeat(12)
+	begin
+		A[0] = 1'b1;
+		A[0] = #40000 1'b0;
+		# 40000;
+	end
+	A[0] = 1'b1;
+end 
+// B[ 2 ]
+initial
+begin
+	B[2] = 1'b0;
+	B[2] = #120000 1'b1;
+	B[2] = #240000 1'b0;
+	B[2] = #40000 1'b1;
+	B[2] = #80000 1'b0;
+	B[2] = #40000 1'b1;
+	B[2] = #40000 1'b0;
+	B[2] = #120000 1'b1;
+	B[2] = #40000 1'b0;
+	B[2] = #80000 1'b1;
+	B[2] = #40000 1'b0;
+end 
+// B[ 1 ]
+initial
+begin
+	B[1] = 1'b1;
+	B[1] = #40000 1'b0;
+	B[1] = #80000 1'b1;
+	B[1] = #200000 1'b0;
+	B[1] = #80000 1'b1;
+	B[1] = #40000 1'b0;
+	B[1] = #40000 1'b1;
+	B[1] = #40000 1'b0;
+	B[1] = #80000 1'b1;
+	B[1] = #80000 1'b0;
+	B[1] = #80000 1'b1;
+	B[1] = #120000 1'b0;
+	B[1] = #80000 1'b1;
+end 
+// B[ 0 ]
+initial
+begin
+	B[0] = 1'b1;
+	B[0] = #80000 1'b0;
+	B[0] = #40000 1'b1;
+	B[0] = #40000 1'b0;
+	B[0] = #80000 1'b1;
+	B[0] = #40000 1'b0;
+	B[0] = #40000 1'b1;
+	B[0] = #240000 1'b0;
+	B[0] = #40000 1'b1;
+	B[0] = #120000 1'b0;
+	B[0] = #80000 1'b1;
+	B[0] = #80000 1'b0;
+	B[0] = #40000 1'b1;
+	B[0] = #40000 1'b0;
+end 
+// fun_select[ 1 ]
+initial
+begin
+	fun_select[1] = 1'b0;
+	fun_select[1] = #560000 1'b1;
+end 
+// fun_select[ 0 ]
+initial
+begin
+	fun_select[0] = 1'b0;
+	fun_select[0] = #280000 1'b1;
+	fun_select[0] = #280000 1'b0;
+	fun_select[0] = #280000 1'b1;
+end 
+endmodule
+

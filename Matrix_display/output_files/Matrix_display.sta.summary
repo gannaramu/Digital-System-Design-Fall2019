@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clock50MHz'
+Slack : -7.413
+TNS   : -273.851
+
+Type  : Slow 1100mV 85C Model Setup 'clock_divider:row_clock_gen|output_clock'
+Slack : -1.493
+TNS   : -5.671
+
+Type  : Slow 1100mV 85C Model Setup 'clock_divider:frame_clock_gen|output_clock'
+Slack : -1.487
+TNS   : -4.937
+
+Type  : Slow 1100mV 85C Model Hold 'clock50MHz'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clock_divider:row_clock_gen|output_clock'
+Slack : 0.707
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clock_divider:frame_clock_gen|output_clock'
+Slack : 0.731
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock50MHz'
+Slack : -0.538
+TNS   : -41.907
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_divider:row_clock_gen|output_clock'
+Slack : -0.538
+TNS   : -3.848
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_divider:frame_clock_gen|output_clock'
+Slack : -0.538
+TNS   : -3.118
+
+Type  : Slow 1100mV 0C Model Setup 'clock50MHz'
+Slack : -7.770
+TNS   : -280.349
+
+Type  : Slow 1100mV 0C Model Setup 'clock_divider:row_clock_gen|output_clock'
+Slack : -1.549
+TNS   : -5.663
+
+Type  : Slow 1100mV 0C Model Setup 'clock_divider:frame_clock_gen|output_clock'
+Slack : -1.527
+TNS   : -4.893
+
+Type  : Slow 1100mV 0C Model Hold 'clock50MHz'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clock_divider:frame_clock_gen|output_clock'
+Slack : 0.664
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clock_divider:row_clock_gen|output_clock'
+Slack : 0.689
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock50MHz'
+Slack : -0.538
+TNS   : -43.323
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_divider:row_clock_gen|output_clock'
+Slack : -0.538
+TNS   : -3.866
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_divider:frame_clock_gen|output_clock'
+Slack : -0.538
+TNS   : -3.102
+
+Type  : Fast 1100mV 85C Model Setup 'clock50MHz'
+Slack : -3.872
+TNS   : -108.378
+
+Type  : Fast 1100mV 85C Model Setup 'clock_divider:row_clock_gen|output_clock'
+Slack : -0.432
+TNS   : -1.457
+
+Type  : Fast 1100mV 85C Model Setup 'clock_divider:frame_clock_gen|output_clock'
+Slack : -0.407
+TNS   : -1.366
+
+Type  : Fast 1100mV 85C Model Hold 'clock50MHz'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clock_divider:frame_clock_gen|output_clock'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clock_divider:row_clock_gen|output_clock'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock50MHz'
+Slack : -0.461
+TNS   : -5.976
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_divider:row_clock_gen|output_clock'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_divider:frame_clock_gen|output_clock'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clock50MHz'
+Slack : -3.590
+TNS   : -97.926
+
+Type  : Fast 1100mV 0C Model Setup 'clock_divider:row_clock_gen|output_clock'
+Slack : -0.371
+TNS   : -1.162
+
+Type  : Fast 1100mV 0C Model Setup 'clock_divider:frame_clock_gen|output_clock'
+Slack : -0.349
+TNS   : -1.079
+
+Type  : Fast 1100mV 0C Model Hold 'clock50MHz'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clock_divider:frame_clock_gen|output_clock'
+Slack : 0.257
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clock_divider:row_clock_gen|output_clock'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock50MHz'
+Slack : -0.461
+TNS   : -6.049
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_divider:row_clock_gen|output_clock'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_divider:frame_clock_gen|output_clock'
+Slack : 0.145
+TNS   : 0.000
+
+------------------------------------------------------------

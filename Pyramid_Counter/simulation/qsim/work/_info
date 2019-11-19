@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/New folder/Pyramid_Counter/simulation/qsim
+vPyramid_Counter
+!s110 1573536838
+!i10b 1
+!s100 `HfjJ]l:Fc9;9VJl]FJB@2
+IVaQi;o_2z0nPY69d8_Q^81
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1573536829
+8Pyramid_Counter.vo
+FPyramid_Counter.vo
+L0 31
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1573536831.000000
+!s107 Pyramid_Counter.vo|
+!s90 -work|work|Pyramid_Counter.vo|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@pyramid_@counter
+vPyramid_Counter_vlg_vec_tst
+!s110 1573536840
+!i10b 1
+!s100 3fMJ`z[o7z;Kdc3C6bWo;3
+IeiiWm`mCHcMPhnf9JNzEJ3
+R1
+R0
+w1573536824
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R2
+r1
+!s85 0
+31
+!s108 1573536838.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3
+R4
+n@pyramid_@counter_vlg_vec_tst
